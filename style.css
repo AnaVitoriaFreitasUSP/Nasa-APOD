@@ -1,0 +1,95 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 300px;
+}
+
+.newContainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    /*padding: 300px;*/
+}
+
+#apresentation{
+    font-size: 60px;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+::-webkit-input-placeholder {
+    font-size: 25px;
+}
+
+#day{
+    padding: 10px;
+    background-color: #4D4D4D;
+}
+
+#month{
+    padding: 10px;
+    background-color: #4D4D4D;
+
+}
+
+#year{
+    padding: 10px;
+    background-color: #4D4D4D;
+
+
+}
+
+#submit{
+    padding: 10px;
+    font-size: 25px;
+    background-color: #9F9F9F;
+}
+
+#explanation{
+    padding: 30px;
+}
+
+body{
+    background-color: #1A1A1A;
+    height: 100vh;
+}
+
+#utils{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.surfButtons{
+    background-color: #878787;
+    font-size: 25px;
+}
+
+.surfButtons:hover{
+    background-color: #A0E1D7;
+}
+
+
+.blocks {    
+    width:250px;  /* Tamanho final do select */    
+    overflow:hidden; /* Esconde o conteúdo que passar do tamanho especificado */
+} 
+
+select {      
+    background-position: 205px center;  /*Posição da imagem do background*/      
+    width: 270px; /* Tamanho do select, maior que o tamanho da div "div-select" */      
+    height:48px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */  font-family:Arial, Helvetica, sans-serif; /* Fonte do Select */  
+    font-size:20px; /* Tamanho da Fonte */  
+    padding:13px 20px 13px 12px; /* Configurações de padding para posicionar o texto no campo */  
+    color:#fff; /* Cor da Fonte */      
+    text-indent: 0.01px; /* Remove seta padrão do FireFox */      
+    text-overflow: "";  /* Remove seta padrão do FireFox */            
+}
+select::-ms-expand {
+    display: none;
+} /* Remove seta padrão do IE*/ }
